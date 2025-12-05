@@ -1,0 +1,29 @@
+.corprimaria {
+    background-color: #f8c4fa;
+}
+
+#cordocard {
+    background-color: #DBAEF4;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+#h5 {
+    color: white;
+    text-align: center;
+}
+
+.centro {
+    text-align: center;
+}
+
+footer {
+    background-color: #DBAEF4;
+    padding: 1px;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}

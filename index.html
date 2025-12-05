@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeautiFull</title>
+
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="shortcut icon" href="/imgs/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body style="background-color: #f8c4fa;">
+    
+    <!--navbar começo-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img src="/imgs/logosemfundo2.png" alt="Logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Página Incial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Contato</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Produtos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Lançamentos</a></li>
+                            <li><a class="dropdown-item" href="#">Perfumaria</a></li>
+                            <li><a class="dropdown-item" href="#">Corpo e banho</a></li>
+                            <li><a class="dropdown-item" href="#">Maquiagem</a></li>
+                            <li><a class="dropdown-item" href="#">Cabelos</a></li>
+                            <li><a class="dropdown-item" href="#">Skincare</a></li>
+                            <li><a class="dropdown-item" href="#">Infantil</a></li>
+                            <li><a class="dropdown-item" href="#">Marcas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"></li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search" />
+                    <button class="btn btn-danger" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--fimnavbar-->
+
+    <!--titulo-->
+    <div class="container-fluid col-lg-12">
+
+        <div class="container mt-5">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item disabled">
+                    <a class="page-link">Previous</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">Home</a></li>
+                  <li class="page-item"><a class="page-link" href="#">Contato</a></li>
+                  <li class="page-item"><a class="page-link" href="#">Prod</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+
+        <div class="container mt-5 centro" id="h5">
+            <h2>Aqui, você encontrará uma curadoria exclusiva dos melhores produtos de beleza — desde maquiagens que inspiram a sua criatividade, até skincare de alta performance que nutre sua pele, e fragrâncias que definem a sua assinatura.</h1>
+        </div>
+        <!--fimtitulo-->
+        <div class="container mt-4 centro" id="h5">
+            <h3>Nossas opções de produtos:</h3>
+        </div>
+        <!--cards-->
+        <div class="container col-12">
+            <div class="row">
+                <div class="col-md-3 mt-4">
+                    <div class="card" style="width: 19rem;" id="cordocard">
+                        <img src="/imgs/maquiagem.png" class="card-img-top" alt="Maquiagem">
+                        <div class="card-body">
+                            <h5 class="card-title" id="h5">Maquiagem</h5>
+                            <p class="card-text">É o seu momento de cuidado e criatividade, permitindo que você se sinta
+                                mais confiante, preparada e radiante para qualquer ocasião.</p>
+                            <a href="#" class="btn btn-danger col-12">Adiconar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-4">
+                    <div class="card" style="width: 19rem;" id="cordocard">
+                        <img src="/imgs/perfume.png" class="card-img-top" alt="perfume">
+                        <div class="card-body">
+                            <h5 class="card-title" id="h5">Perfume</h5>
+                            <p class="card-text">O toque final em qualquer look, capaz de influenciar o seu humor e deixar
+                                uma marca inesquecível por onde você passa.</p>
+                            <a href="#" class="btn btn-danger col-12">Adiconar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-4">
+                    <div class="card" style="width: 19rem;" id="cordocard">
+                        <img src="/imgs/creme.png" class="card-img-top" alt="creme">
+                        <div class="card-body">
+                            <h5 class="card-title" id="h5">Creme</h5>
+                            <p class="card-text">Um produto essencial na rotina de cuidados, projetado para oferecer
+                                hidratação profunda, nutrição e proteção à pele do corpo ou do rosto.</p>
+                            <a href="#" class="btn btn-danger col-12">Adiconar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-4">
+                    <div class="card" style="width: 19rem;" id="cordocard">
+                        <img src="/imgs/batom.png" class="card-img-top" alt="batom">
+                        <div class="card-body">
+                            <h5 class="card-title" id="h5">Batom</h5>
+                            <p class="card-text">Escolher o batom certo é escolher o seu humor e a mensagem que você quer
+                                transmitir. É o toque final essencial que emoldura o seu sorriso.</p>
+                            <a href="#" class="btn btn-danger col-12">Adiconar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-4">
+                    <div class="card" style="width: 19rem;" id="cordocard">
+                        <img src="/imgs/produtobeleza.png" class="card-img-top" alt="oleo">
+                        <div class="card-body">
+                            <h5 class="card-title" id="h5">Óleo para cabelo</h5>
+                            <p class="card-text">Pode ser usado de diversas maneiras: como tratamento pré-shampoo, para dar
+                                um acabamento luminoso após a secagem, ou para disciplinar os fios. É o segredo para
+                                qualquer cabelo.</p>
+                            <a href="#" class="btn btn-danger col-12">Adiconar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-4">
+                    <div class="card" style="width: 19rem;" id="cordocard">
+                        <img src="/imgs/sabonete.png" class="card-img-top" alt="sabonete">
+                        <div class="card-body">
+                            <h5 class="card-title" id="h5">Sabonete</h5>
+                            <p class="card-text">Transforma um ato simples em um momento de cuidado revigorante, deixando a
+                                pele fresca, limpa e com uma sensação agradável de purificação.</p>
+                            <a href="#" class="btn btn-danger col-12">Adiconar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-4">
+                    <div class="card" style="width: 19rem;" id="cordocard">
+                        <img src="/imgs/produtobeleza3.png" class="card-img-top" alt="modelador">
+                        <div class="card-body">
+                            <h5 class="card-title" id="h5">Modelador</h5>
+                            <p class="card-text">Seja na forma de gel, cera, pomada, mousse ou spray, o modelador trabalha
+                                alterando temporariamente a estrutura do cabelo para criar o look desejado.</p>
+                            <a href="#" class="btn btn-danger col-12">Adiconar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-4">
+                    <div class="card" style="width: 19rem;" id="cordocard">
+                        <img src="/imgs/produtobeleza2.png" class="card-img-top" alt="protetor">
+                        <div class="card-body">
+                            <h5 class="card-title" id="h5">Protetor facial</h5>
+                            <p class="card-text">O protetor facial é, sem dúvida, o produto mais importante em qualquer
+                                rotina de skincare, atuando como a primeira linha de defesa da pele.</p>
+                            <a href="#" class="btn btn-danger col-12">Adiconar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--fimcards-->
+
+    
+    
+    <div class="centro">
+        <footer>
+            <h4 class="mt-5">Desenvolvido por: Gabriel Campanhã - gabriel.campanha@fatec.sp.gov.br - <a href="https://fatecjahu.edu.br/" target="_blank">@Fatec Jahu</a>.</h4>
+        </footer>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
